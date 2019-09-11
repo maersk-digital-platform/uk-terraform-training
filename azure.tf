@@ -10,6 +10,6 @@ provider "azurerm" {
 
 # Source the resource group from Azure
 data "azurerm_resource_group" "main" {
-  name = "rgpazewsmlit-sandbox-svm032-demo"
+  name = ""
 }
 
