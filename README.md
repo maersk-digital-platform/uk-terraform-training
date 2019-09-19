@@ -87,9 +87,6 @@ resource "azurerm_network_interface" "hello-terraform-private" {
 ```
 Now run the `terraform plan` and then `terraform apply` to create your network.
 
-### This is the current setup
-![This is the current setup](/img/vm-example3.jpg)
-
 At the `vm.tf` module add the following block of code to create the Ubuntu VM using the private NIC:
 ```sh
 resource "azurerm_virtual_machine" "hello-terraform" {
